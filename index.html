@@ -20,24 +20,32 @@
 <body>
   <div class="container">
     <h1>Pig Dice</h1>
+    <h2>Rules:</h2>
+    <p>First to 100 wins! If you roll a 1 you go back to zero and if you "hold" it's the other players turn.</p>
 
     <table class="table">
       <thead>
         <tr>
 
           <th scope="col">
+
             <h2>Player 1</h2>
-            <form id="new-account">
-              <button type="roll">Roll</button>
-              <button type="hold">Hold</button>
+            <form id="player-one">
+              <div id="player-one">
+                <button id="player-one-roll" type="submit">Roll</button>
+                <button id="player-one-hold" type="hold">Hold</button>
+              </div>
             </form>
+
           </th>
 
           <th scope="col">
             <h2>Player 2</h2>
-            <form id="new-account">
-              <button type="roll">Roll</button>
-              <button type="hold">Hold</button>
+            <form>
+              <div id="player-two">
+                <button id="player-two-roll" type="submit">Roll</button>
+                <button id="player-two-hold" type="hold">Hold</button>
+              </div>
             </form>
           </th>
         </tr>
