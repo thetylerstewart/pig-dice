@@ -1,3 +1,17 @@
 #player-two {
   display: none;
 }
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six {
+  display: none;
+}
+
+#player-one-win,
+#player-two-win {
+  display: none;
+}
